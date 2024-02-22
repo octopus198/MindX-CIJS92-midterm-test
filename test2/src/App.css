@@ -7,10 +7,15 @@ body {
   min-height: 100vh;
   background-color: #192026;
   font-family: 'Poppins';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
 
 .main {
   padding: 20px 80px;
+  max-width: 1270px;
 }
 
 .page-title {
@@ -60,8 +65,11 @@ body {
 }
 
 /* Explore section */
-.explore {
+.explore, .new-release {
   margin-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
 }
 .explore-image-container,
 .thumbnail-container {
@@ -97,7 +105,7 @@ body {
   position: absolute;
   top: 50%;
   padding-left: 30px;
-  padding-right: 50%;
+  padding-right: 40%;
   padding-bottom: 20px;
  
 }
@@ -108,7 +116,7 @@ body {
   position: absolute;
   top: 65%;
   padding-left: 30px;
-  padding-right: 50%;
+  padding-right: 40%;
   padding-bottom: 20px;
   
 }
@@ -122,9 +130,10 @@ body {
 
 .thumbnail-container {
   height: 300px;
-  width: 200px;
+  width: 170px;
   border-radius: 12px;
   overflow: hidden;
+  margin-right: 10px;
 }
 
 .gradient-top {
@@ -155,7 +164,7 @@ body {
 .thumbnail-title-episode {
   font-size: 16px;
   position: absolute;
-  top: 70%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;

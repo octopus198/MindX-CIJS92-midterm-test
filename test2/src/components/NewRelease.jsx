@@ -2,7 +2,7 @@ import React from "react";
 
 const NewRelease = ({ movieList, onClick }) => {
   return (
-    <div>
+    <div className="new-release">
       <h1 className="section-heading">New Releases</h1>
       <div className="movie-list-wrap">
         {movieList.map((movie, id) => (
